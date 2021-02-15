@@ -30,6 +30,13 @@ public class LocalClientDAO implements ClientDAO{
     }
 
     @Override
+    public Client updateClientById(int id, Client client) {
+        Client updatedClient = getClientById(id);
+        updatedClient.setName(client.getName());
+        return updatedClient;
+    }
+
+    @Override
     public boolean deleteClientById(int id) {
         Client client = this.clientTable.remove(id);
         if (client == null)

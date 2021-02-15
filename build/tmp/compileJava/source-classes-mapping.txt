@@ -1,10 +1,16 @@
 dev/zhen/entities/Client.java
  dev.zhen.entities.Client
-dev/zhen/entities/Account.java
- dev.zhen.entities.Account
 dev/zhen/daos/AccountDAO.java
  dev.zhen.daos.AccountDAO
-dev/zhen/daos/ClientDAO.java
- dev.zhen.daos.ClientDAO
+dev/zhen/daos/LocalAccountDAO.java
+ dev.zhen.daos.LocalAccountDAO
+dev/zhen/entities/Account.java
+ dev.zhen.entities.Account
+dev/zhen/services/ClientServiceImpl.java
+ dev.zhen.services.ClientServiceImpl
 dev/zhen/daos/LocalClientDAO.java
  dev.zhen.daos.LocalClientDAO
+dev/zhen/services/ClientService.java
+ dev.zhen.services.ClientService
+dev/zhen/daos/ClientDAO.java
+ dev.zhen.daos.ClientDAO

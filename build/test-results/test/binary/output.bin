@@ -1,4 +1,5 @@
-TEST 0 passed: create client
-TEST 1 passed: get all client
-!TEST 2 passed: get client by id
-$TEST 3 passed: delete client by id
+ Test 0 passed: register client
+Test 1 pass: get all clients
+Test 2 pass: 
+Test 3 pass: 
+Test 4 pass: 

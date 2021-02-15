@@ -1,2 +1,6 @@
+dev/zhen/daotests/AccountDaoTests.java
+ dev.zhen.daotests.AccountDaoTests
 dev/zhen/daotests/ClientDaoTests.java
  dev.zhen.daotests.ClientDaoTests
+dev/zhen/servicetests/ClientServiceTests.java
+ dev.zhen.servicetests.ClientServiceTests

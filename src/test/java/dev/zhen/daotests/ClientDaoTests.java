@@ -3,6 +3,7 @@ package dev.zhen.daotests;
 import dev.zhen.daos.ClientDAO;
 import dev.zhen.daos.LocalClientDAO;
 import dev.zhen.entities.Client;
+//import org.apache.log4j.Logger;
 import org.junit.jupiter.api.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -10,6 +11,7 @@ public class ClientDaoTests {
 
     private static ClientDAO clientDAO = new LocalClientDAO();
     private static Client client = null;
+//    private static Logger logger = Logger.getLogger(ClientDaoTests.class.getName());
 
     @Test
     @Order(0)
